@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VkApiMVP</string>
+    <string name="INTERNET_OUT_TOAST">Должен быть доступ в интернет!!!</string>
+</resources>
