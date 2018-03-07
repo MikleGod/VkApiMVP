@@ -1,14 +1,13 @@
 package com.epam.mikle.vkapimvp.models;
 
-/**
- * Created by Mikle on 10.02.2018.
- */
+import java.io.File;
 
 public class Student {
     public final String fullName;
     public final String vkDomain;
     public int randNumber;
     public String vkId;
+    public File photo;
 
     public Student(String fullName, String vkDomain){
         this.fullName = fullName;
@@ -20,6 +19,6 @@ public class Student {
     }
 
     public boolean isVkIdNull(){
-        return vkId == null;
+        return (vkId == null || vkId.equals(""));
     }
 }
