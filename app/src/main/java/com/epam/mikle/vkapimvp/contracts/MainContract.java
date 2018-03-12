@@ -1,5 +1,6 @@
 package com.epam.mikle.vkapimvp.contracts;
 
+import android.content.Intent;
 import android.view.View;
 
 import com.epam.mikle.vkapimvp.views.adapters.RVAdapter;
@@ -22,6 +23,6 @@ public interface MainContract {
         void onBackPressed();
         View.OnClickListener onFabInit();
         void addStudent();
-        void onCreate();
+        void onCreate(Intent intent);
     }
 }

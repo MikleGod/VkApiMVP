@@ -8,4 +8,5 @@ public interface SavingRepository {
     void saveStudent(Student student);
     void updateStudents(Student student);
     List<Student> getStudents();
+    void deleteStudent(Student student);
 }

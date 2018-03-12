@@ -27,9 +27,23 @@
 
         </android.support.design.widget.AppBarLayout>
 
+        <android.support.design.widget.TextInputLayout
+            android:textColorHint="@color/textColor"
+            android:id="@+id/textInputL"
+            android:layout_below="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:textColorHint="@color/colorPrimaryDark"
+                android:id="@+id/editText"
+                android:hint="@string/message_hint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
 
         <android.support.v7.widget.RecyclerView
-            android:layout_below="@+id/appBar"
+            android:layout_below="@+id/textInputL"
             android:id="@+id/students_recycler_view"
             android:paddingTop="5dp"
             android:layout_width="match_parent"

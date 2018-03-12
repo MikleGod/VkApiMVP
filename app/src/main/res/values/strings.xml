@@ -2,5 +2,6 @@
     <string name="app_name">LovingRand</string>
     <string name="INTERNET_OUT_TOAST">Должен быть доступ в интернет!!!</string>
     <integer name="com_vk_sdk_AppId">6333606</integer>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">LovingRand</string>
+    <string name="message_hint">Ваше сообщение:</string>
 </resources>

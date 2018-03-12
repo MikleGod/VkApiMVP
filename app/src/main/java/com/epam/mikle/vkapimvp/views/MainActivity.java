@@ -11,6 +11,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.epam.mikle.vkapimvp.R;
@@ -31,8 +32,7 @@ public class MainActivity extends AppCompatActivity implements MainContract.Main
         presenter = MainActivityPresenter.getInstance(this);
         Log.d("MainActivity", "onCreate");
         initViews();
-        presenter.onCreate();
-
+        presenter.onCreate(getIntent());
     }
 
     private void initViews(){

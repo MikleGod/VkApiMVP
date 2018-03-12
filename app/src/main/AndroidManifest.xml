@@ -16,6 +16,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".views.StartActivity"
+            android:theme="@style/SplashTheme"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +30,7 @@
         <activity
             android:name=".views.MainActivity"
             android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateHidden"
             android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 

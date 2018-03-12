@@ -1,5 +1,7 @@
 package com.epam.mikle.vkapimvp;
 
+import com.epam.mikle.vkapimvp.repositories.impl.VkWorker;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
